@@ -20,3 +20,15 @@ https://github-readme-stats.vercel.app/api/wakatime?username=akidon0000
 - Compact layout
 
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+
+
+
+
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=akidon0000)](https://github.com/anuraghazra/github-readme-stats)
+
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=akidon0000&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
+
+- Compact layout
+
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=akidon0000&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
