@@ -1,5 +1,19 @@
-# <img width="35" src="https://user-images.githubusercontent.com/50891407/148686885-0fefeb76-4cf6-473a-9e3e-889ce5513450.gif" />
+<p align="center">
+<img width="35" src="https://user-images.githubusercontent.com/50891407/148686885-0fefeb76-4cf6-473a-9e3e-889ce5513450.gif" />
+</p>
 
+<!-- Counter -->
+<p align="center">
+  <img alt="Profile 𝚟𝚒𝚎𝚠𝚜" height="20px" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/akidon0000&count_bg=%23579E91&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false">
+</p>
+
+<p align="center">
+  <b>I'm a passionate programmer who loves to code</b>
+</p>
+
+<p align="center" >
+  <img src="./Docs/coding.gif" width=300px>
+</p>
 
 [![Contributions](https://badgen.org/img/qiita/akidon0000/contributions?style=for-the-badge)](https://qiita.com/akidon0000)
 [![Followers](https://badgen.org/img/qiita/akidon0000/followers?style=for-the-badge)](https://qiita.com/akidon0000)
