@@ -4,7 +4,7 @@ name: Generate Snake
 on:
   schedule:
     # Runs at 6am JST '0 21 * * *'
-    - cron: '*/5 * * * *'
+    - cron: '0 21 * * *'
   workflow_dispatch:
 jobs:
   build:
