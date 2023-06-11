@@ -27,14 +27,13 @@
 <img src="https://github.com/akidon0000/akidon0000/blob/output/github-contribution-grid-snake.svg" alt="GitHub Snake dark" />
 
 
-## ⚽️ GitHub Stats
-
 <div>
   <img height="170" align="left" src="https://github-readme-stats.vercel.app/api?username=akidon0000&count_private=true&show_icons=true&title_color=81A1C1&text_color=ECEFF4&bg_color=2E3440&icon_color=D8DEE9&border_radius=10" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akidon0000&langs_count=8&layout=compact&title_color=81A1C1&text_color=ECEFF4&bg_color=2E3440&icon_color=D8DEE9&border_radius=10" />
 </div>
 
 
-## 🎾 GitHub Profile Trophy
-
 <img width="800" src="https://github-profile-trophy.vercel.app/?username=akidon0000&theme=nord&no-frame=true"/>
+
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
