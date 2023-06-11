@@ -38,9 +38,3 @@
 ## 🎾 GitHub Profile Trophy
 
 <img width="800" src="https://github-profile-trophy.vercel.app/?username=akidon0000&theme=nord&no-frame=true"/>
-
-
-## ⚾️ Languages and Tools
-Languages and tools I have used before
-
-[![My Skills](https://skillicons.dev/icons?i=swift,kotlin,androidstudio,vscode,firebase,python,django,go,aws,mysql,cpp,docker,unity,html,css,javascript,wordpress,nginx,raspberrypi)](https://skillicons.dev)
