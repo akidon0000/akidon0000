@@ -36,5 +36,5 @@
 <img width="800" src="https://github-profile-trophy.vercel.app/?username=akidon0000&theme=nord&no-frame=true"/>
 
 <!--START_SECTION:lapras-card-->
-<a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img src="https://lapras-card-generator.vercel.app/api/svg?e=undefined&b=undefined&i=undefined&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>
+<a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img src="https://lapras-card-generator.vercel.app/api/svg?e=3.47&b=2.85&i=3&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>
 <!--END_SECTION:lapras-card-->
