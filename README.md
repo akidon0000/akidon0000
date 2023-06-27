@@ -16,7 +16,7 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
   
 ## Conference
 - 第18回大学教育カンファレンスin徳島2022  [学生プロジェクト運営でプロジェクトを活発化させるために有効であった手法の結果とその考察](https://www.tokushima-u.ac.jp/highedu/reform/fd/docs/43324.html)　　
-- iOSDC2023 ルーキーズLT (プロポーザル) [大学生向けアプリの開発において、レガシーと思っていた技術を採用した理由：学生開発者の挑戦](https://fortee.jp/iosdc-japan-2023/proposal/4aeabde3-5d90-41bf-bdc1-f8c927443a58)
+
 
 ## Links
 - [Twitter](https://twitter.com/akidon0000)  
