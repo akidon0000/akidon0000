@@ -14,9 +14,9 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
 トクメモ＋ iOS/Android: Academic support app for Tokushima University
   
   
-## Conference
+## Presentation
 - 第18回大学教育カンファレンスin徳島2022  [学生プロジェクト運営でプロジェクトを活発化させるために有効であった手法の結果とその考察](https://www.tokushima-u.ac.jp/highedu/reform/fd/docs/43324.html)　　
-
+- ライトニングトーク大会 2023 SUMMER [大学生向けアプリの開発において、レガシーと思っていた技術を採用した理由：学生開発者の挑戦](https://udontech.connpass.com/event/286292/)
 
 ## Links
 - [Twitter](https://twitter.com/akidon0000)  
