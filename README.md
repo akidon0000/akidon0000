@@ -21,6 +21,9 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
 - [【徳島】第19回 カンファレンス動画鑑賞会](https://tokushima-app.connpass.com/event/287623/)  
 スライド:[大学生向けアプリの開発において、レガシーと思っていた技術を採用した理由：学生開発者の挑戦](https://www.slideshare.net/ssuser4a1300/pptx-259338451)
 
+## Intern
+- 2020/2~2021/3 Under a contract with a university associate professor, I developed alone a [disaster prevention iOS app](https://www.ejec.ej-hds.co.jp/ejitcenter_group2_quickjudge/).
+- 2023/7/30  Internship as an iOS engineer at [Sansan](https://jp.corp-sansan.com/)
 
 ## Links
 - [Twitter](https://twitter.com/akidon0000)  
