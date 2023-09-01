@@ -24,9 +24,10 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
 ## Intern
 - 2020/2~2021/3 Under a contract with a university associate professor, I developed alone a [disaster prevention iOS app](https://www.ejec.ej-hds.co.jp/ejitcenter_group2_quickjudge/).
 - 2023/7/30  Internship as an iOS engineer at [Sansan](https://jp.corp-sansan.com/)
+- 2023/9/1-  Internship as an iOS engineer at [ZOZO](https://corp.zozo.com/)
 
 ## Links
-- [Twitter](https://twitter.com/akidon0000)  
+- [X(Twitter)](https://twitter.com/akidon0000)  
 - [Qiita](https://qiita.com/akidon0000)  
 - [Connpass](https://connpass.com/user/akidon0000/)  
 - [AtCoder](https://atcoder.jp/users/akidon0000)
