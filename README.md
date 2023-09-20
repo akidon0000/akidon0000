@@ -22,9 +22,9 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
 スライド:[大学生向けアプリの開発において、レガシーと思っていた技術を採用した理由：学生開発者の挑戦](https://www.slideshare.net/ssuser4a1300/pptx-259338451)
 
 ## Intern
-- 2020/2~2021/3 Under a contract with a university associate professor, I developed alone a [disaster prevention iOS app](https://www.ejec.ej-hds.co.jp/ejitcenter_group2_quickjudge/).
+- 2020/2~2021/3 Under a contract with a university associate professor, I developed alone a [disaster prevention iOS app](https://www.tokushima-u.ac.jp/rcmode/business/system.html).
 - 2023/7/30  Internship as an iOS engineer at [Sansan](https://jp.corp-sansan.com/)
-- 2023/9/1-  Internship as an iOS engineer at [ZOZO](https://corp.zozo.com/)
+- 2023/9/1-9/30  Internship as an iOS engineer at [ZOZO](https://corp.zozo.com/)
 
 ## Links
 - [X(Twitter)](https://twitter.com/akidon0000)  
