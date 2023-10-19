@@ -25,6 +25,7 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
 - 2020/2~2021/3 I was working on the development of a [disaster prevention mobile app](https://www.tokushima-u.ac.jp/rcmode/business/system.html) by myself, as requested by a professor at Tokushima University.
 - 2023/7/30  Internship as an iOS engineer at [Sansan](https://jp.corp-sansan.com/)
 - 2023/9/1-9/30  Internship as an iOS engineer at [ZOZO](https://corp.zozo.com/)
+- 2023/10/16-11/6  Internship as an iOS engineer at [Sansan](https://jp.corp-sansan.com/)
 
 ## Links
 - [X(Twitter)](https://twitter.com/akidon0000)  
