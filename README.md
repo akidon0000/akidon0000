@@ -27,6 +27,9 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
 - 2023/9/1-9/30  Internship as an iOS engineer at [ZOZO](https://corp.zozo.com/)
 - 2023/10/16-11/6  Internship as an iOS engineer at [Sansan](https://jp.corp-sansan.com/)
 
+## Hackathon
+- 2024/2/10~2/11 [QiitaHackathon](https://qiita.com/official-campaigns/hackathon/2024-first)予選 [発表](https://x.com/chomado/status/1756581966894289317?s=20)
+
 ## Links
 - [X(Twitter)](https://twitter.com/akidon0000)  
 - [Qiita](https://qiita.com/akidon0000)  
