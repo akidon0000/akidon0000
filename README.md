@@ -49,5 +49,6 @@ I usually develop iOS(Swift), Android(Kotlin), Flutter(Dart) mobile app as hobby
 
 <!--LAPRAS-->
 <!--START_SECTION:lapras-card-->
-<a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img src="https://lapras-card-generator.vercel.app/api/svg?e=3.72&b=2.85&i=3.44&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a>
+<p ><a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img alt="akidon0000のLAPRASでのスコアは次の通りです: エンジニアリング: 3.72 / 5.0, ビジネス: 2.85 / 5.0, インフルエンス: 3.44 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.72&b=2.85&i=3.44&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a>  
+Last Updated on 4/21/2024, 2:44:30 AM</p>
 <!--END_SECTION:lapras-card-->
