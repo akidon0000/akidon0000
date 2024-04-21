@@ -14,3 +14,4 @@ jobs:
         with:
           SHARE_ID: "akidon0000"
           LANG: "ja"
+          UPDATE_TIME: "false"
