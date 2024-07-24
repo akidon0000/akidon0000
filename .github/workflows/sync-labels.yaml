@@ -1,8 +1,8 @@
 name: Sync Labels
 on:
     workflow_dispatch:
-    push:
-        branches: [main, feature/label-create-yml]
+    schedule:
+        - cron: "0 9 * * 1"
 jobs:
   sync-labels:
     permissions:
