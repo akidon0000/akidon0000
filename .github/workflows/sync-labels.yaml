@@ -3,6 +3,8 @@ on:
     workflow_dispatch:
     schedule:
         - cron: "0 9 * * 1"
+    push:
+        branches: [master, main]
 jobs:
   sync-labels:
     permissions:
