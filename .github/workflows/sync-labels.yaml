@@ -9,10 +9,18 @@ jobs:
       issues: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: micnncim/action-label-syncer@v1
-        with:
-          manifest: .github/labels.yml
-          repository: |
-            akidon0000/label-syncer-config
-          token: ${{ secrets.PERSONAL_TOKEN }}
+        - name: Checkout the current repository
+          uses: actions/checkout@v4
+
+        - name: Checkout the label-syncer-config repository
+          uses: actions/checkout@v4
+          with:
+            repository: akidon0000/label-syncer-config
+            path: label-syncer-config
+
+        - name: Sync labels
+          uses: micnncim/action-label-syncer@v1
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            manifest: label-syncer-config/.github/labels.yml
