@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 9 * * 1"
   push:
-    branches: [master, main]
+    branches: [master, main, create-pr-if-difference]
 
 permissions:
   contents: write
@@ -26,21 +26,21 @@ jobs:
 
       - name: Sync .github directory
         run: |
-            rsync -a --delete repo-to-checkout/.github/ .github/
+          rsync -a --delete repo-to-checkout/.github/ .github/
 
       - name: Check for changes
         id: git-diff
         run: |
-            git config --global user.name 'github-actions[bot]'
-            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-            git add .github
-            git diff --cached --exit-code || echo "Changes detected"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .github
+          git diff --cached --exit-code || echo "Changes detected"
 
       - name: Create Pull Request
         if: steps.git-diff.outputs.exit-code != '0'
         uses: peter-evans/create-pull-request@v6
         with:
-            commit-message: Update .github directory from akidon0000/github-config
-            delete-branch: true
-            title: Update .github directory
-            reviewers: akidon0000
+          commit-message: Update .github directory from akidon0000/github-config
+          delete-branch: true
+          title: Update .github directory
+          reviewers: akidon0000
