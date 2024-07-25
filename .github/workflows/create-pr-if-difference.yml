@@ -27,7 +27,7 @@ jobs:
 
       - name: Sync .github directory
         run: |
-          rsync -a --delete repo-to-checkout/.github/ .github/
+          rsync -a repo-to-checkout/.github/ .github/
 
       - name: Check for changes
         id: git-diff
