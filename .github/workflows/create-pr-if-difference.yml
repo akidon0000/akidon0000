@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 9 * * 1"
   push:
-    branches: [master, main, create-pr-if-difference]
+    branches: [master, main, feature/create-pr-if-difference]
 
 permissions:
   contents: write
