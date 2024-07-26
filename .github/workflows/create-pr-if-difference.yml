@@ -35,9 +35,9 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A
           git reset .github/workflows/
-          git checkout -- .github/workflows/
-          git status
           git commit -m "Update .github directory from akidon0000/github-config"
+          git checkout .
+          git status
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
