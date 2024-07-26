@@ -34,20 +34,16 @@ jobs:
       - name: Sync .github directory
         run: |
           rsync -a host-repository/.github/ .github/
-
-      - name: Commit changes
-        id: git-diff
-        run: |
           git add .github
-          echo "&&&&&& git diff --cached --exit-code: $(git diff --cached --exit-code)"
-          echo "&&&&&& steps.git-diff.outputs.change: $(steps.git-diff.outputs.changes_detected)"
-          git diff --cached --exit-code || echo "::set-output name=changes_detected::true"
 
       - name: Create Pull Request
-        if: steps.git-diff.outputs.changes_detected == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
+          branch: patch-bot/sync-github-directory
           commit-message: Update .github directory from akidon0000/github-config
           delete-branch: true
           title: "[🤖] Update .github directory"
           reviewers: akidon0000
+        #   labels: |
+        #     report
+        #     automated pr
