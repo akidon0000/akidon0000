@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "0 9 * * 1"
   push:
-    branches: [master, main, feature/create-pr-if-difference]
+    branches: [master, main, feature/create-pr-if-difference, feature/test]
 
 permissions:
   contents: write
@@ -35,12 +35,42 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .github
-          git diff --cached --exit-code || echo "Changes detected"
+          if git diff --cached --exit-code; then
+            echo "No changes detected"
+            echo "::set-output name=changes_detected::false"
+          else
+            echo "Changes detected"
+            echo "::set-output name=changes_detected::true"
+          fi
+
+      - name: Verify changes detected
+        if: steps.git-diff.outputs.changes_detected == 'true'
+        run: |
+          echo "Changes detected, proceeding with pull request creation."
 
       - name: Create Pull Request
+        if: steps.git-diff.outputs.changes_detected == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: Update .github directory from akidon0000/github-config
           delete-branch: true
           title: "[🤖] Update .github directory"
           reviewers: akidon0000
+
+      - name: Check for existing Pull Request
+        if: steps.git-diff.outputs.changes_detected == 'true'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { data: pullRequests } = await github.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+            });
+
+            const existingPR = pullRequests.find(pr => pr.title === '[🤖] Update .github directory');
+            if (existingPR) {
+              core.setFailed(`Pull Request already exists: ${existingPR.html_url}`);
+            } else {
+              core.notice('No existing Pull Request found.');
+            }
