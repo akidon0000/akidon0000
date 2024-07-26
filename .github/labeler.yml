@@ -1,0 +1,12 @@
+"🏠 Type: Chore":
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**/*"
+          - ".gitignore"
+          - ".vscode/*"
+
+"📝 Type: Document":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "docs/**/*"
+          - "**/*.md"
