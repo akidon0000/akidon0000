@@ -1,11 +1,10 @@
-# test
 name: Create a pull request if there is a difference
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 9 * * 1"
   push:
-    branches: [master, main, feature/create-pr-if-difference, feature/test]
+    branches: [main, feature/create-pr-if-difference, feature/test]
 
 permissions:
   contents: write
@@ -25,16 +24,9 @@ jobs:
           repository: akidon0000/github-config
           path: host-repository
 
-    #   - name: Create new branch
-    #     run: |
-    #       git config --global user.name "github-actions[bot]"
-    #       git config --global user.email "github-actions[bot]@users.noreply.github.com"
-    #       git checkout -b patch-bot/sync-github-directory
-
       - name: Sync .github directory
         run: |
           rsync -a host-repository/.github/ .github/
-        #   git add .github
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
