@@ -1,5 +1,5 @@
 
-name: Sync Labels
+name: Sync Labels test
 on:
   workflow_dispatch:
   schedule:
