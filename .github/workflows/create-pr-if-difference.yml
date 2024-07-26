@@ -26,7 +26,7 @@ jobs:
 
       - name: Sync .github directory
         run: |
-          rsync -a --exclude=host-repository/.github/workflows/* host-repository/.github/ .github/
+          rsync -a --exclude=host-repository/.github/workflows/test.txt host-repository/.github/ .github/
 
     #   - uses: actions/checkout@v4
       - name: Create commits
