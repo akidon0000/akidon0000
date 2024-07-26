@@ -26,9 +26,9 @@ jobs:
 
       - name: Sync .github directory
         run: |
-          rsync -a --exclude=host-repository/.github/workflows/test.txt host-repository/.github/ .github/
+          rsync -a --exclude=.github/workflows/test.txt host-repository/.github/ .github/
 
-    #   - uses: actions/checkout@v4
+      #   - uses: actions/checkout@v4
       - name: Create commits
         run: |
           git config user.name 'github-actions[bot]'
@@ -44,7 +44,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           branch: patch-bot/sync-github-directory
-        #   commit-message: Update .github directory from akidon0000/github-config
+          #   commit-message: Update .github directory from akidon0000/github-config
           delete-branch: true
           title: "[🤖] Update .github directory"
         #   reviewers: akidon0000
