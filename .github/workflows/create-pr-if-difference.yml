@@ -36,7 +36,7 @@ jobs:
           commit-message: Update .github directory from akidon0000/github-config
           delete-branch: true
           title: "[🤖] Update .github directory"
-          reviewers: akidon0000
+        #   reviewers: akidon0000
         #   labels: |
         #     report
         #     automated pr
