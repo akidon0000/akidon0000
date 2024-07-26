@@ -25,16 +25,16 @@ jobs:
           repository: akidon0000/github-config
           path: host-repository
 
-      - name: Create new branch
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b patch-bot/sync-github-directory
+    #   - name: Create new branch
+    #     run: |
+    #       git config --global user.name "github-actions[bot]"
+    #       git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    #       git checkout -b patch-bot/sync-github-directory
 
       - name: Sync .github directory
         run: |
           rsync -a host-repository/.github/ .github/
-          git add .github
+        #   git add .github
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
