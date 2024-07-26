@@ -33,8 +33,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -- .github/workflows/
           git add -A
-          git reset .github/workflows/
           git status
           git commit -m "Update .github directory from akidon0000/github-config"
 
