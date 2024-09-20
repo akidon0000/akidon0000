@@ -1,4 +1,4 @@
-name: "LAPRAS Card"
+name: "slideshare"
 
 on:
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
 
     - name: Scrape SpeakerDeck and update ReadMe
       run: |
-        python ../../Script/scrape_speakerdeck.py
+        python Script/scrape_speakerdeck.py
 
     - name: Create commits
       run: |
@@ -34,9 +34,14 @@ jobs:
         git config user.email 'github-actions[bot]@users.noreply.github.com'
         git add -A
         git reset .github/workflows/
+        if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+        fi
         git commit -m "Update ReadMe with SpeakerDeck link"
         git checkout .
         git status
+
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6
       with:
