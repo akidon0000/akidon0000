@@ -42,3 +42,22 @@ jobs:
         build_dir: dist
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Scrape SpeakerDeck and update ReadMe
+      run: |
+        python ../../Script/scrape_speakerdeck.py
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "Update ReadMe with SpeakerDeck link"
+        git push origin HEAD
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v4
+      with:
+        branch: update-readme
+        title: "Update ReadMe with SpeakerDeck link"
+        body: "Automatically updated the ReadMe with the latest SpeakerDeck link."
