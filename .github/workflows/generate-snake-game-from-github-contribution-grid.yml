@@ -2,10 +2,12 @@
 name: Generate Snake
 
 on:
-  schedule:
-    # Runs at 6am JST '0 21 * * *'
-    - cron: '0 21 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches: [master, main]
+
 jobs:
   build:
     name: Jobs to update snake
