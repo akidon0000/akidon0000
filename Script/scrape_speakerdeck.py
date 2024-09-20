@@ -23,7 +23,7 @@ new_lines = ""
 for link in links:
     href = link['href']  # リンクのURL
     title = link['title']  # タイトル
-    new_link = f"[{title}]({href})\n"
+    new_link = f"- [{title}]({href})\n"
 
     # すでにREADMEに同じリンクが存在するか確認
     if href not in content:

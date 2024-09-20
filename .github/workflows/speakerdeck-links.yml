@@ -1,4 +1,4 @@
-name: "slideshare"
+name: "Update SpeakerDeck Links"
 
 on:
   workflow_dispatch:
@@ -8,8 +8,8 @@ on:
     branches: [master, main]
 
 jobs:
-  slideshare:
-    name: slideshare
+  update_speakerdeck_links:
+    name: Update SpeakerDeck Links
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
@@ -48,4 +48,4 @@ jobs:
         token: ${{ secrets.PAT }}
         branch: patch-bot/speakerdeck-update
         delete-branch: true
-        title: "[🤖] Update README.md"
+        title: "[🤖] Update README.md - speakerdeckのリンクを追加"
