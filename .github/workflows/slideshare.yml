@@ -1,0 +1,46 @@
+name: "LAPRAS Card"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches: [master, main]
+
+jobs:
+  slideshare:
+    name: slideshare
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4
+
+    - name: Scrape SpeakerDeck and update ReadMe
+      run: |
+        python ../../Script/scrape_speakerdeck.py
+
+    - name: Create commits
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git add -A
+        git reset .github/workflows/
+        git commit -m "Update ReadMe with SpeakerDeck link"
+        git checkout .
+        git status
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v6
+      with:
+        token: ${{ secrets.PAT }}
+        branch: patch-bot/speakerdeck-update
+        delete-branch: true
+        title: "[🤖] Update README.md"
