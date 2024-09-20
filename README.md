@@ -48,9 +48,7 @@
 
 
 <!--START_SECTION:lapras-card-->
-<div style="display: flex; justify-content: center; align-items: center;">
-<a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img alt="akidon0000のLAPRASでのスコアは次の通りです: エンジニアリング: 3.82 / 5.0, ビジネス: 2.85 / 5.0, インフルエンス: 3.58 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.82&b=2.85&i=3.58&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="300" ></a>
-</div>
+<p ><a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img alt="akidon0000のLAPRASでのスコアは次の通りです: エンジニアリング: 3.82 / 5.0, ビジネス: 2.85 / 5.0, インフルエンス: 3.58 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.82&b=2.85&i=3.58&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a></p>
 <!--END_SECTION:lapras-card-->
 
 
