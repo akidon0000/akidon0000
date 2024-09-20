@@ -27,7 +27,7 @@ for link in links:
     new_link = f"- [{title}]({href})\n"
 
     # すでにREADMEに同じリンクが存在するか確認
-    if href not in content:
+    if url not in content:
         new_lines += new_link  # 存在しない場合のみ追加
 
 # 新しいリンクがある場合、プレースホルダーの前に追加
