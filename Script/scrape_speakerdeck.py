@@ -24,7 +24,7 @@ for link in links:
     href = link['href']  # リンクのURL
     url = "https://speakerdeck.com" + href
     title = link['title']  # タイトル
-    new_link = f"- [{title}]({href})\n"
+    new_link = f"- [{title}]({url})\n"
 
     # すでにREADMEに同じリンクが存在するか確認
     if url not in content:
