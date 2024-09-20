@@ -6,9 +6,9 @@
 
 <div style="display: flex; justify-content: center; align-items: center;">
 
-  ![akidon0000's GitHub Stats](https://github-readme-stats.vercel.app/api?username=akidon0000&count_private=true&show_icons=true&title_color=81A1C1&text_color=ECEFF4&bg_color=2E3440&icon_color=D8DEE9&border_radius=10)
+<img width="300" src="https://github-readme-stats.vercel.app/api?username=akidon0000&count_private=true&show_icons=true&title_color=81A1C1&text_color=ECEFF4&bg_color=2E3440&icon_color=D8DEE9&border_radius=10">
 
-  ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akidon0000&langs_count=8&layout=compact&title_color=81A1C1&text_color=ECEFF4&bg_color=2E3440&icon_color=D8DEE9&border_radius=10)
+<img width="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akidon0000&langs_count=8&layout=compact&title_color=81A1C1&text_color=ECEFF4&bg_color=2E3440&icon_color=D8DEE9&border_radius=10">
 
 </div>
 
@@ -34,10 +34,7 @@
 
 
 ## Links
-- [X(Twitter)](https://twitter.com/akidon0000)
-- [Qiita](https://qiita.com/akidon0000)
-- [Connpass](https://connpass.com/user/akidon0000/)
-- [AtCoder](https://atcoder.jp/users/akidon0000)
+[X(Twitter)](https://twitter.com/akidon0000)　・ [Qiita](https://qiita.com/akidon0000) ・ [Connpass](https://connpass.com/user/akidon0000/) ・ [AtCoder](https://atcoder.jp/users/akidon0000)
 
 
 
@@ -51,7 +48,7 @@
 
 
 <!--START_SECTION:lapras-card-->
-<p ><a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img alt="akidon0000のLAPRASでのスコアは次の通りです: エンジニアリング: 3.82 / 5.0, ビジネス: 2.85 / 5.0, インフルエンス: 3.58 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.82&b=2.85&i=3.58&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a></p>
+<p style="text-align: center;"><a href="https://lapras.com/public/akidon0000" target="_blank" rel="noopener noreferrer"><img alt="akidon0000のLAPRASでのスコアは次の通りです: エンジニアリング: 3.82 / 5.0, ビジネス: 2.85 / 5.0, インフルエンス: 3.58 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.82&b=2.85&i=3.58&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="00" ></a></p>
 <!--END_SECTION:lapras-card-->
 
 
@@ -59,5 +56,8 @@
 <div style="display: flex; justify-content: center; align-items: center;">
 
 [![Contributions](https://badgen.org/img/qiita/akidon0000/contributions?style=for-the-badge)](https://qiita.com/akidon0000) [![Followers](https://badgen.org/img/qiita/akidon0000/followers?style=for-the-badge)](https://qiita.com/akidon0000) [![Articles](https://badgen.org/img/qiita/akidon0000/articles?style=for-the-badge)](https://qiita.com/akidon0000)
+</div>
+<div style="display: flex; justify-content: center; align-items: center;">
+
 ![Badge](https://cp-logo.vercel.app/atcoder/akidon0000) [![Twitter](https://img.shields.io/twitter/follow/akidon0000?style=social)](https://twitter.com/akidon0000 "Twitter")
 </div>
