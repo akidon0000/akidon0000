@@ -21,6 +21,8 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
+- [なぜデフォルトが青色！？ Tint Colorの理由に迫る](https://speakerdeck.com/akidon0000/nazedehuorutogaqing-se-tint-colornoli-you-nipo-ru)
+
 - 神山.swift [APIのない大学ログインWebサービスをWKWebViewとJavaScriptでアプリ化した話](https://speakerdeck.com/akidon0000/apinonaida-xue-rokuinwebsahisuwowkwebviewtojavascriptteahurihua-sitahua)
 
 - 【徳島】第24回 カンファレンス動画鑑賞会 [try!Swift Tokyo 2024 参加報告 LT](https://speakerdeck.com/akidon0000/tryswiftcan-jia-lt)
