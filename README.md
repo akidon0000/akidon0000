@@ -21,7 +21,7 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
-- [なぜデフォルトが青色！？ Tint Colorの理由に迫る](https://speakerdeck.com/akidon0000/nazedehuorutogaqing-se-tint-colornoli-you-nipo-ru)
+- iOSDC Japan 2024 [なぜデフォルトが青色！？ Tint Colorの理由に迫る](https://speakerdeck.com/akidon0000/nazedehuorutogaqing-se-tint-colornoli-you-nipo-ru)
 
 - 神山.swift [APIのない大学ログインWebサービスをWKWebViewとJavaScriptでアプリ化した話](https://speakerdeck.com/akidon0000/apinonaida-xue-rokuinwebsahisuwowkwebviewtojavascriptteahurihua-sitahua)
 
