@@ -22,6 +22,7 @@ with open(readme_file, 'r') as file:
 new_lines = ""
 for link in links:
     href = link['href']  # リンクのURL
+    url = "https://speakerdeck.com" + href
     title = link['title']  # タイトル
     new_link = f"- [{title}]({href})\n"
 
