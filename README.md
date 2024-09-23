@@ -36,7 +36,7 @@
 
 
 ## Links
-[X(Twitter)](https://twitter.com/akidon0000)　・ [Qiita](https://qiita.com/akidon0000) ・ [Connpass](https://connpass.com/user/akidon0000/) ・ [AtCoder](https://atcoder.jp/users/akidon0000)
+[X(Twitter)](https://twitter.com/akidon0000) ・ [Qiita](https://qiita.com/akidon0000) ・ [Note](https://note.com/akidon0000/) ・ [Connpass](https://connpass.com/user/akidon0000/) ・ [AtCoder](https://atcoder.jp/users/akidon0000)
 
 
 
