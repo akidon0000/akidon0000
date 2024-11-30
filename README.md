@@ -21,6 +21,8 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
+- [ヒッチハイクのススメ 〜あんた1度やってみなはれ〜](https://speakerdeck.com/akidon0000/hitutihaikunosusume-anta1du-yatuteminahare)
+
 
 - Kanagawa.swift#1 [iPhone Simulatorに目を生やす](https://github.com/akidon0000/Kanagawa_swift_LT)
 
