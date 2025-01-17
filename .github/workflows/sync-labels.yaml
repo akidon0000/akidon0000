@@ -1,19 +1,18 @@
+# ラベルを毎週月曜日の午前9時に自動で同期するためのワークフロー
+# https://github.com/akidon0000/label-syncer-config を参照してください
+
 name: Sync Labels
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 0 * * *"
-    push:
-        branches: [master, main]
+        - cron: "0 9 * * 1"
+
 jobs:
   sync-labels:
     permissions:
       issues: write
     runs-on: ubuntu-latest
     steps:
-        - name: Checkout the current repository
-          uses: actions/checkout@v4
-
         - name: Checkout the label-syncer-config repository
           uses: actions/checkout@v4
           with:
@@ -25,4 +24,4 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
-            manifest: label-syncer-config/.github/labels.yml
+            manifest: label-syncer-config/base-labels.yml
