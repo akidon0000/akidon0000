@@ -41,9 +41,9 @@
 
 
 ## Interview
-- [壁にぶつかってもあきらめたくない――大学非公認アプリを開発した徳島大学院生が、前向きに取り組み続けられる理由とは？](https://gakumado.mynavi.jp/gmd/articles/76918)
 - [#17ビジネスをリードするエンジニアへの第一歩。 Sansanのエンジニア職インターンシップとは](https://note.com/sansan_newgrads/n/nb85012a199e8)
-
+- [壁にぶつかってもあきらめたくない――大学非公認アプリを開発した徳島大学院生が、前向きに取り組み続けられる理由とは？](https://gakumado.mynavi.jp/gmd/articles/76918)
+- [キラリ！徳大生 Vol.6](https://www.instagram.com/p/DFokh88Snj2/?img_index=1)
 
 
 ## Links
