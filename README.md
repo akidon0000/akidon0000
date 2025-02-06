@@ -40,6 +40,11 @@
 <!--END_SECTION:speakerdeck-->
 
 
+## Interview
+- [壁にぶつかってもあきらめたくない――大学非公認アプリを開発した徳島大学院生が、前向きに取り組み続けられる理由とは？](https://gakumado.mynavi.jp/gmd/articles/76918)
+- [#17ビジネスをリードするエンジニアへの第一歩。 Sansanのエンジニア職インターンシップとは](https://note.com/sansan_newgrads/n/nb85012a199e8)
+
+
 
 ## Links
 [X(Twitter)](https://twitter.com/akidon0000) ・ [Qiita](https://qiita.com/akidon0000) ・ [Note](https://note.com/akidon0000/) ・ [Connpass](https://connpass.com/user/akidon0000/) ・ [AtCoder](https://atcoder.jp/users/akidon0000)
