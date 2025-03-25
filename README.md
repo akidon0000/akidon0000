@@ -21,6 +21,8 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
+- [組織理念の力、実感してる？ ~学生団体で学んだ教訓~](https://speakerdeck.com/akidon0000/zu-zhi-li-nian-noli-shi-gan-siteru-xue-sheng-tuan-ti-dexue-ndajiao-xun)
+
 - トクメモ＋説明会 in 株式会社FeaSion [トクメモ＋技術説明スライド](https://speakerdeck.com/akidon0000/tokumemo-technical-expertise)
 
 - 徳島ヒマ会#1 [ヒッチハイクのススメ 〜あんた1度やってみなはれ〜](https://speakerdeck.com/akidon0000/hitutihaikunosusume-anta1du-yatuteminahare)
