@@ -21,7 +21,7 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
-- [個人開発の学生アプリが企業譲渡されるまで](https://speakerdeck.com/akidon0000/nagoya-swift-1)
+- Nagoya.swift [個人開発の学生アプリが企業譲渡されるまで](https://speakerdeck.com/akidon0000/nagoya-swift-1)
 
 - 徳島ヒマ会#2 [組織理念の力、実感してる？ -学生団体で学んだ教訓-](https://speakerdeck.com/akidon0000/zu-zhi-li-nian-noli-shi-gan-siteru-xue-sheng-tuan-ti-dexue-ndajiao-xun)
 
