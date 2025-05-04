@@ -15,7 +15,7 @@
 
 
 ## Products
-トクメモ＋ iOS/Android: Academic support app for Tokushima University
+[トクメモ＋ iOS/Android: Academic support app for Tokushima University](https://qiita.com/akidon0000/items/5dab4e425796d6e32f8a)
 
 
 
