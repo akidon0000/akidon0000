@@ -21,6 +21,10 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
+- 【出張編】実務経験どうはじめる？Progate BAR 学生限定 知見シェア＆交流会 [継続戦闘能力](https://speakerdeck.com/sansantech/20250529-2)
+
+- Mobile勉強会 #20 ウォンテッドリー × チームラボ × Sansan [Animatableって何者？](https://github.com/akidon0000/MySlides)
+
 - Nagoya.swift [個人開発の学生アプリが企業譲渡されるまで](https://speakerdeck.com/akidon0000/nagoya-swift-1)
 
 - 徳島ヒマ会#2 [組織理念の力、実感してる？ -学生団体で学んだ教訓-](https://speakerdeck.com/akidon0000/zu-zhi-li-nian-noli-shi-gan-siteru-xue-sheng-tuan-ti-dexue-ndajiao-xun)
