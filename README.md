@@ -21,7 +21,7 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
-- [iOS開発スターターキットの作り方](https://speakerdeck.com/akidon0000/ioskai-fa-sutatakitutonozuo-rifang)
+- Mobile勉強会 #21 ウォンテッドリー × チームラボ × Sansan [iOS開発スターターキットの作り方](https://speakerdeck.com/akidon0000/ioskai-fa-sutatakitutonozuo-rifang)
 
 - 【出張編】実務経験どうはじめる？Progate BAR 学生限定 知見シェア＆交流会 [継続戦闘能力](https://speakerdeck.com/sansantech/20250529-2)
 
