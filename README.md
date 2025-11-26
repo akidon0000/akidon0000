@@ -21,6 +21,10 @@
 
 ## Presentation
 <!--START_SECTION:speakerdeck-->
+- [XcodePreview](https://speakerdeck.com/akidon0000/xcodepreview)
+- [SwiftDataを使って10万件のデータを読み書きする](https://speakerdeck.com/akidon0000/swiftdatawoshi-tute10mo-jian-notetawodu-mishu-kisuru)
+- [個人開発で徳島大学生60％以上の心を掴んだアプリ、そして手放した話](https://speakerdeck.com/akidon0000/ge-ren-kai-fa-dede-dao-da-xue-sheng-60-percent-yi-shang-noxin-woguo-ndaapuri-sositeshou-fang-sitahua)
+
 - Mobile勉強会 #21 ウォンテッドリー × チームラボ × Sansan [iOS開発スターターキットの作り方](https://speakerdeck.com/akidon0000/ioskai-fa-sutatakitutonozuo-rifang)
 
 - 【出張編】実務経験どうはじめる？Progate BAR 学生限定 知見シェア＆交流会 [継続戦闘能力](https://speakerdeck.com/sansantech/20250529-2)
